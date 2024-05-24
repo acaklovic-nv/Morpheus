@@ -23,7 +23,7 @@ from _utils.faiss import FakeEmbedder
 from morpheus.service.vdb.faiss_vdb_service import FaissVectorDBResourceService
 from morpheus.service.vdb.faiss_vdb_service import FaissVectorDBService
 
-# create FAISS docstore for testing
+# create a FAISS docstore for testing
 texts = ["for", "the", "test"]
 embeddings = FakeEmbedder()
 ids = ["a", "b", "c"]
